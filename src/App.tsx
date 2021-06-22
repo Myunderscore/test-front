@@ -1,10 +1,11 @@
 import "./App.css";
+import LogoJoovence from "./assets/joovence-logo.png";
 
 function App() {
   return (
     <div>
       <header className="header">
-        <img src="/joovence-logo.png" className="logo" alt="logo" />
+        <img src={LogoJoovence} className="logo" alt="logo" />
         <h1>Bookings</h1>
       </header>
     </div>
